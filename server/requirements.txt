@@ -1,4 +1,6 @@
-Flask==0.11.1
-cf-deployment-tracker==1.0.2
+Flask==0.12.2
+cf-deployment-tracker==1.0.4
 cloudant==2.4.0
 line-bot-sdk==1.1.0
+pysolr==3.6.0
+watson-developer-cloud==0.26.0
