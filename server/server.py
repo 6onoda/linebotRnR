@@ -26,7 +26,6 @@ app = Flask(__name__)
 
 config_file = open('config.json' , 'r')
 config = json.load(config_file)
-# talk_api_key = config["talkApiKey"]
 
 line_channel_token = config["lineChannelToken"]
 line_channel_secret = config["lineChannelSecret"]
